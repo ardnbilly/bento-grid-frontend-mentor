@@ -5,7 +5,6 @@
     --yellow-500: hsl(39, 100%, 71%);
     --white: hsl(0, 0%, 100%);
     --black: hsl(0, 0%, 7%);
-    --font-root: 18px;
     --font-regular: 400;
     --font-medium: 500;
     --font-family: "DM Sans", sans-serif;
@@ -56,7 +55,7 @@ img {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 7rem 3rem;
+    padding: 3rem;
 }
 
 .benefit1__heading {
@@ -80,7 +79,7 @@ img {
 }
 
 .benefit2__heading {
-  color: var(--black);
+    color: var(--black);
     font-size: 4rem;
     font-weight: var(--font-medium);
     line-height: 1;
@@ -95,29 +94,158 @@ img {
 .benefit3 {
     grid-area: benefit3;
     background-color: var(--purple-500);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 3rem 2rem;
+}
+
+.benefit3__heading {
+    color: var(--white);
+    font-weight: var(--font-medium);
+    font-size: 6rem;
+    line-height: 1;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    max-width: 650px;
+}
+
+.benefit3__heading-yellow {
+    color: var(--yellow-500);
+}
+
+.benefit3__rating {
+    width: 280px;
+}
+
+.benefit3__subheading {
+    color: var(--white);
+    font-size: 1.75rem;
+    margin-top: 0.5rem;
 }
 
 .benefit4 {
     grid-area: benefit4;
     background-color: var(--white);
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+.benefit4__heading {
+    color: var(--black);
+    font-weight: var(--font-medium);
+    font-size: 3rem;
+    line-height: 1;
+    margin-top: 2rem;
 }
 
 .benefit5 {
     grid-area: benefit5;
     background-color: var(--yellow-500);
+    padding: 3rem 3rem 0 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.benefit5__heading {
+    color: var(--black);
+    font-weight: var(--font-medium);
+    font-size: 3rem;
+    line-height: 1;
+    display: flex;
+}
+
+.benefit5__heading-wrap {
+    height: 170px;
+    overflow: hidden;
 }
 
 .benefit6 {
     grid-area: benefit6;
     background-color: var(--white);
+    padding: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.benefit6__heading {
+    color: var(--black);
+    font-size: 8rem;
+    font-weight: var(--font-medium);
+    line-height: 1;
+}
+
+.benefit6__subheading {
+    font-size: 2.25rem;
+}
+
+.benefit6__img {
+    width: 80%;
 }
 
 .benefit7 {
     grid-area: benefit7;
     background-color: var(--purple-500);
+    display: flex;
+    padding: 3rem;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.benefit7__img-wrap {
+}
+
+.benefit7__img {
+}
+
+.benefit7__heading {
+    color: var(--white);
+    font-weight: var(--font-medium);
+    font-size: 4rem;
+    line-height: 1;
+    width: 450px;
 }
 
 .benefit8 {
     grid-area: benefit8;
     background-color: var(--purple-100);
+    padding: 3rem 0 3rem 3rem;
+}
+
+.benefit8__heading {
+    color: var(--black);
+    font-weight: var(--font-medium);
+    font-size: 3rem;
+    line-height: 1;
+    margin-right: 3rem;
+    margin-bottom: 2rem;
+}
+
+.benefit8__subheading {
+    color: var(--black);
+    font-size: 2rem;
+    line-height: 1;
+    margin-right: 3rem;
+    margin-top: 2rem;
+    width: 315px;
+}
+
+.benefit8__img-wrap {
+    height: 460px;
+    overflow: hidden;
+}
+
+.benefit8__img {
+    height: 100%;
+    object-fit: cover;
+    object-position: left;
 }
